@@ -23,11 +23,11 @@
 3. Prepare Game Files: Ensure map.txt and guards.txt are in the project directory.
 
 ## Controls
-    Move Left: L
-    Move Right: R
-    Move Up: U
-    Move Down: D
+-  Move Left: L
+-  Move Right: R
+-  Move Up: U
+- Move Down: D
 
 ## Game Files
-map.txt: Layout of the prison (walls and paths).
-guards.txt: Guard starting positions and movement patterns.
+- map.txt: Layout of the prison (walls and paths).
+- guards.txt: Guard starting positions and movement patterns.
