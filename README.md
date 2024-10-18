@@ -29,5 +29,5 @@
 - Move Down: D
 
 ## Game Files
-- map.txt: Layout of the prison (walls and paths).
-- guards.txt: Guard starting positions and movement patterns.
+- `map.txt`: Layout of the prison (walls and paths).
+- `guards.txt`: Guard starting positions and movement patterns.
