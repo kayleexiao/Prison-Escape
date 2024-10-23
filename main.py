@@ -63,7 +63,7 @@ pygame.init()
 
 SCREEN = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 SCREEN.fill(BLACK)
-pygame.display.set_caption("Prison Escape - CPSC 231 Fall 2022 University of Calgary")
+pygame.display.set_caption("Prison Escape")
 font_color = (0, 150, 250)
 font = pygame.font.SysFont("Segoe UI", 30)
 
@@ -104,13 +104,9 @@ while not done:
                 game_over = 1
             if turn == False:
             # now is the guards' turn
+                current_map.update_guards()
                 if current_map.player_loses():
                     game_over = 2
-                else:
-                    current_map.update_guards()
-                    if current_map.player_loses():
-                        game_over = 2
-
 
     keys = pygame.key.get_pressed()
     if keys[K_ESCAPE]:
